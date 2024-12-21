@@ -9,13 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventProcessingService", "EventProcessingService\EventProcessingService.csproj", "{EDE24EBB-8F83-4847-8652-C7BC58142BED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		loadtest.js = loadtest.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98BC5305-7C58-484D-A45E-9A13C2A2A073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +32,8 @@ Global
 		{EDE24EBB-8F83-4847-8652-C7BC58142BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDE24EBB-8F83-4847-8652-C7BC58142BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDE24EBB-8F83-4847-8652-C7BC58142BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
